@@ -1,7 +1,6 @@
 Entity Synonyms
 ===============
-Group 5 - IRE Major Project
----------------------------
+##Group 5 - IRE Major Project
 
 Team Members:
 
