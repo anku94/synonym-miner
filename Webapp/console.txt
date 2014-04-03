@@ -1,0 +1,92 @@
+Enter your query: 
+The sorted list is:
+[4, harry, harry 4, harry potter, harry potter 4, potter, potter 4]
+Skipped google search.
+harry potter 4 SUPERSET REMOVED, SET CONTENTS: [harry potter 4, harry, potter 4, harry 4, 4, potter, harry potter]
+Skipped google search.
+harry SUBSET REMOVED,  SET CONTENTS: [harry potter 4, potter 4, harry 4, 4, potter, harry potter]
+Skipped google search.
+potter 4 SUPERSET REMOVED, SET CONTENTS: [potter 4, harry 4, 4, potter, harry potter]
+URL: http://www.imdb.com/title/tt0330373/
+
+creating directory: /home/lordinvader/Studies/IRE/MP/WORK/harry 4
+
+URL: http://en.wikipedia.org/wiki/Harry_Potter_and_the_Goblet_of_Fire
+
+URL: http://megashare.info/watch-harry-potter-and-the-goblet-of-fire-online-TmpZPQ
+
+URL: http://harry4you.com/
+
+harry 4 SUPERSET REMOVED, SET CONTENTS: [potter 4, harry 4, 4, potter, harry potter]
+Skipped google search.
+potter SUBSET REMOVED,  SET CONTENTS: [potter 4, harry 4, 4, harry potter]
+URL: http://www.4chan.org/
+
+creating directory: /home/lordinvader/Studies/IRE/MP/WORK/4
+
+URL: http://en.wikipedia.org/wiki/4_(number)
+
+URL: http://en.wikipedia.org/wiki/4_(Beyonc%25C3%25A9_album)
+
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://en.wikipedia.org/wiki/4_(Beyonc%25C3%25A9_album)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at TestGoogleSea.getData(TestGoogleSea.java:655)
+	at TestGoogleSea.searchGoogle(TestGoogleSea.java:606)
+	at TestGoogleSea.getcorrelation(TestGoogleSea.java:834)
+	at TestGoogleSea.main(TestGoogleSea.java:108)
+URL: http://www.4-h.org/
+
+4 SUBSET REMOVED,  SET CONTENTS: [potter 4, harry 4, harry potter]
+java.lang.NullPointerException
+	at TestGoogleSea.searchGoogle(TestGoogleSea.java:598)
+	at TestGoogleSea.getcorrelation(TestGoogleSea.java:834)
+	at TestGoogleSea.main(TestGoogleSea.java:108)
+No single file created !!!
+harry potter SUPERSET REMOVED, SET CONTENTS: [potter 4, harry 4, harry potter]
+
+ID Token Sets: 
+[harry 4, harry potter, potter 4]
+
+CANONICAL NAME: wd my book 4 tb external hard disk
+Mention: harry 4
+NOT A Mention: harry potter
+CANONICAL NAME: wd my book 4 tb external hard disk
+Mention: potter 4
+Key  : 75
+Value: harry
+Key  : 74
+Value: potter
+Key  : 35
+Value: 4
+Key  : 20
+Value: goblet
+Key  : 20
+Value: 5
+Key  : 17
+Value: fire
+Key  : 17
+Value: 7
+Key  : 15
+Value: 1
+Key  : 13
+Value: rowling
+Key  : 13
+Value: k
+Canonical name with evidence: wd my book 4 tb external hard disk
+created !!!
+potter 6 SUPERSET REMOVED, SET CONTENTS: [harry 6, potter 6, potter, harry potter]
+Skipped google search.
+potter SUBSET REMOVED,  SET CONTENTS: [harry 6, potter 6, harry potter]
+java.lang.NullPointerException
+	at TestGoogleSea.searchGoogle(TestGoogleSea.java:598)
+	at TestGoogleSea.getcorrelation(TestGoogleSea.java:834)
+	at TestGoogleSea.main(TestGoogleSea.java:108)
+No single file created !!!
+harry potter SUPERSET REMOVED, SET CONTENTS: [harry 6, potter 6, harry potter]
+
+ID Token Sets: 
+[harry 6, harry potter, potter 6]
+
+NOT A Mention: harry 6
+NOT A Mention: harry potter
+NOT A Mention: potter 6
