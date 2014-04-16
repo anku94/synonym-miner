@@ -74,10 +74,11 @@ public class stringSimilarity
 		boolean returnValue=false;
 		while(it.hasNext())
 		{
+			
 			String str = returnMatchValue(UserQuery, query, it.next(), 3);
 			if(str != null)
 			{
-				System.out.println("CANONICAL NAME: "+str);
+				System.out.println("MATCHED NAME: "+str);
 				productNames.add(str);
 				returnValue = true;
 			}

@@ -52,7 +52,7 @@ public class TestGoogleSea
 	static String folderPath;
 	static String products_file_path;
 	public static final int k = 10;
-	public static final int cut_number = 3;
+	public static final int cut_number = 7;
 	static int length1;
 	static int count1;
 	static String str1;
@@ -96,7 +96,7 @@ public class TestGoogleSea
 
 		TreeSet<String> sortedSet2 = new TreeSet<String>(set);
 		System.out.println("The sorted list is:");
-		System.out.println(sortedSet2); 
+		System.out.println(sortedSet2);
 		Iterator<String> it = temp_set.iterator();
 
 		while(it.hasNext())
@@ -302,8 +302,8 @@ public class TestGoogleSea
 			{
 				i++;
 				synonym_words.add(e.getValue());
-				System.out.println("Key  : "+count);
-				System.out.println("Value: "+word);
+				//System.out.println("Key  : "+count);
+				//System.out.println("Value: "+word);
 				int count_product=0;
 				Iterator<String> itr = stringSimilarity.productNames.iterator();
 				while(itr.hasNext())
